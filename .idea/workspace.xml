@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9af2f779-2e64-4c21-bb82-75bb997637c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/WaitNotify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/countDownLatch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lessons/Multithreading/ProducerConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lessons/Multithreading/ProducerConsumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Multithreading/ProducerConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/ProducerConsumer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,26 +41,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.WaitNotify">
+  <component name="RunManager" selected="Application.countDownLatch">
     <configuration name="ProducerConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Multithreading.ProducerConsumer" />
       <module name="Lessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Synchronized1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Multithreading.Synchronized1" />
-      <module name="Lessons" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Multithreading.*" />
+          <option name="PATTERN" value="Multithreading.countDownLatch" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,7 +60,7 @@
       <module name="Lessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Multithreading.*" />
+          <option name="PATTERN" value="Multithreading.countDownLatch" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,7 +73,7 @@
       <module name="Lessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Multithreading.*" />
+          <option name="PATTERN" value="Multithreading.countDownLatch" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,6 +83,19 @@
     </configuration>
     <configuration name="WaitNotify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Multithreading.WaitNotify" />
+      <module name="Lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Multithreading.countDownLatch" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="countDownLatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Multithreading.countDownLatch" />
       <module name="Lessons" />
       <extension name="coverage">
         <pattern>
@@ -111,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.countDownLatch" />
         <item itemvalue="Application.WaitNotify" />
         <item itemvalue="Application.ProducerConsumer" />
         <item itemvalue="Application.ThreadPool" />
         <item itemvalue="Application.Synchronized2" />
-        <item itemvalue="Application.Synchronized1" />
       </list>
     </recent_temporary>
   </component>
@@ -157,30 +155,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="458" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1578833487768" />
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1581535627591">
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1583181311424">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1581535627591" />
-    <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1578902847477">
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1583181311424" />
+    <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583181042680">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1578902847477" />
-    <state width="1322" height="148" key="GridCell.Tab.0.bottom" timestamp="1581539352849">
+    <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1583181042680" />
+    <state width="1322" height="148" key="GridCell.Tab.0.bottom" timestamp="1583182109625">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="148" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581539352849" />
-    <state width="1322" height="148" key="GridCell.Tab.0.center" timestamp="1581539352849">
+    <state width="1322" height="148" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583182109625" />
+    <state width="1322" height="148" key="GridCell.Tab.0.center" timestamp="1583182109625">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="148" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581539352849" />
-    <state width="1322" height="148" key="GridCell.Tab.0.left" timestamp="1581539352849">
+    <state width="1322" height="148" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583182109625" />
+    <state width="1322" height="148" key="GridCell.Tab.0.left" timestamp="1583182109625">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="148" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581539352849" />
-    <state width="1322" height="148" key="GridCell.Tab.0.right" timestamp="1581539352849">
+    <state width="1322" height="148" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583182109625" />
+    <state width="1322" height="148" key="GridCell.Tab.0.right" timestamp="1583182109625">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="148" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581539352849" />
+    <state width="1322" height="148" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583182109625" />
     <state width="1322" height="216" key="GridCell.Tab.1.bottom" timestamp="1578904526226">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
