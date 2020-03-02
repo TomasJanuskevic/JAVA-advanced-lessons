@@ -44,7 +44,7 @@ public class ProducerConsumer {
 
     private static void consumer() throws InterruptedException {
         while (true) {
-            Thread.sleep(100);
+            Thread.sleep(1000);
             System.out.println(queue.take());
         }
     }
